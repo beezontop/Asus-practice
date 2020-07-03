@@ -1,0 +1,117 @@
+//device width : 768~  (md)
+@media (min-width:768px) {
+
+	.md-col-3 {
+		width: 25%;
+	}
+
+	.md-col-6 {
+		width: 50%;
+	}
+
+	// 四欄 -> 三欄
+	.sm-col-6.md-col-4 {
+		width: 33.33333333%;
+	}
+
+	// full -> 一半
+	.sm-col-12.md-col-6 {
+		width: 50%;
+	}
+
+	.md-dis-block {
+		display: block;
+	}
+
+	.md-dis-none {
+		display: none;
+	}
+
+	// =======================================body container
+	body .container {
+		margin   : 0 auto;
+		padding  : 0 15px;
+		max-width: 100%;
+	}
+
+	// =======================================recommend
+	#recommend {
+
+		& .row>div:nth-child(1),
+		.row>div:nth-child(2) {
+			margin-bottom: 0px;
+		}
+	}
+
+	.md-recom-item-info {
+		text-align: center;
+
+		.product-name {
+			margin     : 0;
+			font-size  : 20px;
+			font-weight: bold;
+
+		}
+	}
+
+	// =======================================news
+	#news {
+		background-color: #FFF;
+	}
+
+	#news-items {
+		padding-top: 0;
+	}
+
+	.new-pic {
+		position: relative;
+	}
+
+	// =======================================footer
+
+	.language {
+		float  : left;
+		padding: 0;
+	}
+
+	.privacy-list {
+		float: right;
+	}
+
+}
+
+//1200~
+@media (min-width:1200px) {
+
+	.lg-col-5 {
+		width: 41.6666666667%;
+	}
+
+	.lg-col-7 {
+		width: 58.3333333333%;
+	}
+
+	.lg-dis-none {
+		display: none;
+	}
+
+	.lg-dis-block {
+		display: block;
+	}
+
+	body .container {
+		margin: 0 auto;
+		width : 1200px;
+		height: auto;
+	}
+
+	//-------------------------------------recommend
+
+	.product-name {
+		padding-top: 20px;
+	}
+
+	.product-disc {
+		padding-top: 10px;
+	}
+}

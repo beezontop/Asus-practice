@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice - ASUS</title>
+
+    <!-- main.css -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/reponsive.css">
+    <link rel="stylesheet" type="text/css" href="css/fontello.css">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!--JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <div id="hidden-nav-list" class="lg-dis-none">
+        <ul>
+            <li><a href="#">登入</a></li>
+            <li><a href="#">產品</a></li>
+            <li><a href="#">熱門活動</a></li>
+            <li><a href="#">商用電腦</a></li>
+            <li><a href="#">
+                    <p class="new">ProArt</p>
+                </a></li>
+            <li><a href="#">服務&社群</a></li>
+            <li><a href="#">商店</a></li>
+        </ul>
+    </div>
+    <header>
+        <div class="container clearfix">
+            
+            <div id="nav-bar" class="clearfix">
+                <!-- 手機版本導覽列 -->
+                <div class="lg-dis-none">
+                    <div class="row">
+                        <div id="nav-btn" class="sm-col-4">
+                            <a href="#"><i class="icon-menu"></i></a>
+                        </div>
+                        <div id="logo" class="sm-col-4">
+                            <img src="image/logo.png" />
+                        </div>
+                        <div id="search" class="sm-col-4">
+                            <a href="#"><i class="icon-search"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 電腦版本導覽列 -->
+                <div class="lg-nav-bar clearfix dis-none lg-dis-block">
+                    <ul class="nav-list clearfix">
+                        <li><a href="#"><img src="image/logo.png" /></a></li>
+                        <li><a href="#">產品</a></li>
+                        <li><a href="#">熱門活動</a></li>
+                        <li><a href="#">商用電腦</a></li>
+                        <li><a href="#">
+                                <p class="new">ProArt</p>
+                            </a></li>
+                        <li><a href="#">服務&社群</a></li>
+                        <li><a href="#">商店</a></li>
+                    </ul>
+                    <ul class="nav-list-right clearfix">
+                        <li><a href="#">登入</a></li>
+                        <li><a href="#"><i class="icon-search"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="slider">
+        <div id="carouselIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div id="slide-img1" class="carousel-item active">
+                    <img src="https://picsum.photos/id/5/426/460.jpg" class="d-block w-100" alt="pic">
+                </div>
+                <div id="slide-img2" class="carousel-item">
+                    <img src="https://picsum.photos/id/8/426/460.jpg" class="d-block w-100" alt="pic.">
+                </div>
+                <div id="slide-img3" class="carousel-item">
+                    <img src="https://picsum.photos/id/96/426/460.jpg" class="d-block w-100" alt="pic">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------主要內容-------------------->
+
+    <div id="content" class="overflow-hidden">
+        <div id="recommend" class="full-width container">
+            <div class="row">
+                <div class="sm-col-6 md-col-4">
+                    <div class="recom-item-info">
+                        <div class="row">
+                            <div class="md-recom-item-info dis-none md-dis-block lg-col-7">
+                                <p class="product-name">Smart Phone R2</p>
+                                <p class="product-disc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="lg-col-5">
+                                <img src="https://picsum.photos/id/435/480/360.jpg" />
+                            </div>
+                        </div>
+                        <div class="sm-recom-item-info md-dis-none">
+                            <p class="product-name">Smart Phone R2</p>
+                            <p class="product-disc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sm-col-6 md-col-4">
+                    <div class="recom-item-info">
+                        <div class="row">
+                            <div class="md-recom-item-info dis-none md-dis-block lg-col-7">
+                                <p class="product-name">Smart Phone R2</p>
+                                <p class="product-disc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="lg-col-5">
+                                <img src="https://picsum.photos/id/435/480/360.jpg" />
+                            </div>
+                        </div>
+                        <div class="sm-recom-item-info md-dis-none">
+                            <p class="product-name">Smart Phone R2</p>
+                            <p class="product-disc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sm-col-6 md-col-4">
+                    <div class="recom-item-info">
+                        <div class="row">
+                            <div class="md-recom-item-info dis-none md-dis-block lg-col-7">
+                                <p class="product-name">Smart Phone R2</p>
+                                <p class="product-disc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="lg-col-5">
+                                <img src="https://picsum.photos/id/435/480/360.jpg" />
+                            </div>
+                        </div>
+                        <div class="sm-recom-item-info md-dis-none">
+                            <p class="product-name">Smart Phone R2</p>
+                            <p class="product-disc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sm-col-6 md-col-4 md-dis-none">
+                    <div class="recom-item-info">
+                        <div class="row">
+                            <div class="md-recom-item-info dis-none md-dis-block lg-col-7">
+                                <p class="product-name">Smart Phone R2</p>
+                                <p class="product-disc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="lg-col-5">
+                                <img src="https://picsum.photos/id/435/480/360.jpg" />
+                            </div>
+                        </div>
+                        <div class="sm-recom-item-info md-dis-none">
+                            <p class="product-name">Smart Phone R2</p>
+                            <p class="product-disc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="sm-col-6 md-col-4 md-dis-none">
+                    <div class="recom-item-info">
+                        <div class="md-recom-item-info dis-none md-dis-block">
+                            <p class="product-name">Smart Phone R2</p>
+                            <p class="product-disc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <img src="https://picsum.photos/id/435/480/360.jpg" />
+                        <div class="sm-recom-item-info md-dis-none">
+                            <p class="product-name">Smart Phone R2</p>
+                            <p class="product-disc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+
+        <div id="AD">
+            <a href="#"><img src="https://picsum.photos/id/482/1080/1170.jpg" alt="AD-img"></a>
+        </div>
+
+        <div id="news" class="full-width container">
+            <div class="row">
+                <div id="main-news" class="sm-col-12 md-col-6">
+                    <div class="new-pic">
+                        <img src="https://picsum.photos/id/5/948/680.jpg" alt="news-pic">
+                        <div class="cover dis-none md-dis-block">
+                            <div class="md-news-info">
+                                <p class="news-tag">Zen Talk</p>
+                                <p class="news-des">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-info md-dis-none">
+                        <p class="news-tag">Zen Talk</p>
+                        <p class="news-des">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+
+
+                <div id="news-items" class="sm-col-12 md-col-6">
+                    <div id="news-item-wrap">
+                        <div class="sm-col-6">
+                            <div class="new-pic">
+                                <img src="https://picsum.photos/id/5/470/336.jpg" alt="news-pic">
+                                <div class="cover dis-none md-dis-block">
+                                    <div class="md-news-info">
+                                        <p class="news-tag">Zen Talk</p>
+                                        <p class="news-des">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="news-info md-dis-none">
+                                <p class="news-tag">Zen Talk</p>
+                                <p class="news-des">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                        <div class="sm-col-6">
+                            <div class="new-pic">
+                                <img src="https://picsum.photos/id/5/470/336.jpg" alt="news-pic">
+                                <div class="cover dis-none md-dis-block">
+                                    <div class="md-news-info">
+                                        <p class="news-tag">Zen Talk</p>
+                                        <p class="news-des">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="news-info md-dis-none">
+                                <p class="news-tag">Zen Talk</p>
+                                <p class="news-des">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                        <div class="sm-col-6">
+                            <div class="new-pic">
+                                <img src="https://picsum.photos/id/5/470/336.jpg" alt="news-pic">
+                                <div class="cover dis-none md-dis-block">
+                                    <div class="md-news-info">
+                                        <p class="news-tag">Zen Talk</p>
+                                        <p class="news-des">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="news-info md-dis-none">
+                                <p class="news-tag">Zen Talk</p>
+                                <p class="news-des">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                        <div class="sm-col-6">
+                            <div class="new-pic">
+                                <img src="https://picsum.photos/id/5/470/336.jpg" alt="news-pic">
+                                <div class="cover dis-none md-dis-block">
+                                    <div class="md-news-info">
+                                        <p class="news-tag">Zen Talk</p>
+                                        <p class="news-des">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="news-info md-dis-none">
+                                <p class="news-tag">Zen Talk</p>
+                                <p class="news-des">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="go-top" class="md-dis-none">
+            <div class="row">
+                <div class="col-12">
+                    <a href="header">回到首頁</a>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div id="sm-footer" class="container md-dis-none">
+                <div id="footer-nav">
+                    <ul id="footer-link">
+                        <li><a href="#">探索更多</a></li>
+                        <li><a href="#">關於我們</a></li>
+                        <li><a href="#">支援服務</a></li>
+                        <li><a href="#">社群</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="md-footer" class="dis-none md-dis-block">
+                <div class="container">
+                    <div class="row">
+                        <div class="md-col-3">
+                            <p class="list-title">探索更多</p>
+                            <ul class="footer-link-list">
+                                <li><a href="#">Lorem ipsum</a></li>
+                                <li><a href="#">Lorem ipsum</a></li>
+                                <li><a href="#">Lorem ipsum</a></li>
+                                <li><a href="#">Lorem ipsum</a></li>
+                                <li><a href="#">Lorem ipsum</a></li>
+                                <li><a href="#">Lorem ipsum</a></li>
+                                <li><a href="#">Lorem ipsum</a></li>
+                                <li><a href="#">Lorem ipsum</a></li>
+                                <li><a href="#">Lorem ipsum</a></li>
+                                <li><a href="#">Lorem ipsum</a></li>
+                            </ul>
+                        </div>
+                        <div class="md-col-3">
+                            <p class="list-title">關於我們</p>
+                            <ul class="footer-link-list">
+                                <li><a href="#">Lorem ipsum</a></li>
+                                <li><a href="#">Lorem ipsum</a></li>
+                                <li><a href="#">Lorem ipsum</a></li>
+                                <li><a href="#">Lorem ipsum</a></li>
+                                <li><a href="#">Lorem ipsum</a></li>
+                                <li><a href="#">Lorem ipsum</a></li>
+                                <li><a href="#">Lorem ipsum</a></li>
+                                <li><a href="#">Lorem ipsum</a></li>
+                                <li><a href="#">Lorem ipsum</a></li>
+                                <li><a href="#">Lorem ipsum</a></li>
+                            </ul>
+                        </div>
+                        <div class="md-col-3">
+                            <p class="list-title">支援服務</p>
+                            <ul class="footer-link-list">
+                                <li><a href="#">Lorem ipsum</a></li>
+                                <li><a href="#">Lorem ipsum</a></li>
+                                <li><a href="#">Lorem ipsum</a></li>
+                                <li><a href="#">Lorem ipsum</a></li>
+                                <li><a href="#">Lorem ipsum</a></li>
+                                <li><a href="#">Lorem ipsum</a></li>
+                                <li><a href="#">Lorem ipsum</a></li>
+                                <li><a href="#">Lorem ipsum</a></li>
+                                <li><a href="#">Lorem ipsum</a></li>
+                                <li><a href="#">Lorem ipsum</a></li>
+                            </ul>
+                        </div>
+                        <div class="md-col-3">
+                            <p class="list-title">社群</p>
+                            <ul class="sns-list clearfix">
+                                <li><a href="#"><i class="icon-youtube"></i></a></li>
+                                <li><a href="#"><i class="icon-facebook-squared"></i></a></li>
+                                <li><a href="#"><i class="icon-instagram"></i></a></li>
+                            </ul>
+                            <ul class="footer-link-list">
+                                <li><a href="#">Lorem ipsum</a></li>
+                                <li><a href="#">Lorem ipsum</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="container clearfix">
+                    <div class="language">
+                        <a href="#">
+                            <p><i class="icon-globe"></i>Taiwan / 繁體中文</p>
+                        </a>
+                    </div>
+                    <div class="privacy-list">
+                        <ul class="clearfix">
+                            <li><a href="#">隱私權保護政策</a></li>
+                            <li><a href="#">使用條款</a></li>
+                            <li>Lorem ipsum dolor sit amet consectetur.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
